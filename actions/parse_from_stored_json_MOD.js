@@ -15,14 +15,7 @@ module.exports = {
     return [data.varName, `JSON ${varType} Value`]
   },
 
-  fields: [
-    'behavior',
-    'varStorage',
-    'jsonObjectVarName',
-    'path',
-    'storage',
-    'varName'
-  ],
+  fields: ['behavior', 'varStorage', 'jsonObjectVarName', 'path', 'storage', 'varName'],
 
   html (isEvent, data) {
     return `
